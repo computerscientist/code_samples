@@ -1,0 +1,99 @@
+/*style.css
+Styling for all the user side pages
+Ryan Berger created 9/27 modified through 12/7*/
+body{
+	margin: 0px auto;
+}
+
+h1{
+	text-align: center;
+}
+
+.draggable{
+	margin-left: 25%;
+	width: 300px;
+	height: 150px;
+}
+
+div.longbox_left{
+	width: 80%;
+	height: 250px;
+	float: right;
+	padding: 10px;
+	border: 2px solid #00ff00;
+	margin-bottom: 30px;
+}
+
+div.longbox{
+	width: 80%;
+	height: 270px;
+}
+
+div.dropbox{
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	margin-bottom: 30px;
+	float: right;
+}
+
+div.floatleft{
+	border: 2px solid black;
+    	float:left;
+    	width: 49.4%;
+    	background-color: #00ff00;
+}
+
+div.floatright{
+	border: 2px solid black;
+	float: left;
+    	background-color: #ff0000;
+    	width: 49.4%;
+}
+
+.imgresize{
+    max-width: 100%;
+    max-height: 250px;        
+}
+
+a:visited{color:black;}
+a:link{color:black;}
+a:hover{color:white;background: black;}
+a:active{color:yellow;}
+
+.button{
+	border: solid black;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	background: #56A0D3;
+	font-family: serif;
+}
+
+.between{
+	clear: both;
+}
+
+.content{
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 10px;
+	padding bottom:10px;
+}
+
+div>a{
+	display:block;
+	width: 40%;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2em;
+	margin-bottom:10px;
+}
+
+#welcomePlaceHolder{
+	margin-left: 5px;
+	margin-top: 7px;
+	padding: 0px;
+	font-size: 12pt;
+}

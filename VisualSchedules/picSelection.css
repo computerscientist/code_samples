@@ -1,0 +1,29 @@
+/*Some custom styling for AdminPictures where you create schedules
+Willis Kennedy created 11/9 modified through 12/3*/
+
+img{
+	height: 150px;
+	width: 200px;
+}
+
+.images{
+	padding: .5em;
+}
+
+.pic_boxes{
+	float: left;
+}
+
+#leftBox{
+	width:100%;
+}
+
+.pictures{
+	width: 100%;
+}
+
+.dropPictures{
+	margin-top: 8%;
+	margin-left: auto;
+	margin-right: auto;
+}

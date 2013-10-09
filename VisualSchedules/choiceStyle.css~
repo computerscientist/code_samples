@@ -1,0 +1,129 @@
+
+body{
+	margin: 0px auto;
+}
+
+h1{
+	text-align: center;
+}
+
+div.topbox{
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid black;
+	display: table;
+}
+
+div.longbox{
+	margin: 0px auto;
+	width: 80%;
+	margin-top: 3%;
+	height: 200px;
+	border: 2px solid black;
+}
+
+div.left{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+div.center{
+	width: 20%;
+	height: 100%;
+	float: left;
+	font-size: 3em;
+	font-weight: bold;
+	display: table;
+}
+
+div.right{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+div.single{
+	width: 40%;
+	height: 100%;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+div.right>img{
+	float: right;
+}
+
+span.center{
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 
+}
+
+span.top{
+	vertical-align: middle;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+.imgresizeTop{
+    max-width: 100%;
+    max-height: 100px;        
+}
+
+.imgresize{
+    max-width: 100%;
+    max-height: 200px;        
+}
+
+/*Schedule styles*/
+.draggable{
+	margin-top: 7%;
+	margin-left: 25%;
+	width: 300px;
+	height: 150px;
+}
+
+div.longbox_left{
+	width: 80%;
+	margin-top: 7%;
+	height: 33%;
+	margin-bottom: 3%;
+	float: right;
+}
+
+div.longbox_sched{
+	width: 80%;
+	margin-top: 7%;
+	height: 35%;
+	margin-bottom: 3%;
+}
+
+div.dropbox {
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	float: right;
+	margin-top: 3.3%;
+}
+
+div.floatleft{
+	border: 2px solid black;
+    float:left;
+    width: 49.4%;
+    background-color: #00ff00;
+    height: 100%;
+}
+
+div.floatright{
+	border: 2px solid black;
+	float: left;
+    background-color: #ff0000;
+    height: 100%;
+    width: 49.4%;
+}
+
+.imgresizeSched{
+    max-width: 100%;
+    max-height: 100%;
+}

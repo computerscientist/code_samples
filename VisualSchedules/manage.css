@@ -1,0 +1,142 @@
+/*Stylesheet for AdminManageSchedule
+Willis Kennedy created 12/5*/
+
+img{
+	width: 200px;
+	height: 150px;
+}
+
+.borders{
+	border-width: 1px;
+	border-color: #56A0D3;
+}
+
+.images{
+	margin-bottom: 1em;
+}
+
+.activeSelect > input{
+	margin-left: 2em;
+}
+
+.activated{
+	border:6px solid red;
+	background-color: blue;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 1em;
+}
+
+.title{
+	font-family: "Arial", "Times New Roman", serif;
+	font-size: 14pt;
+	font-style: italic;
+	color: black;
+}
+
+.title:hover{
+	font-family: "Arial", "Times New Roman", serif;
+	font-size: 14pt;
+	font-style: italic;
+	color: white;
+}
+
+.title:active{
+	font-family: "Arial", "Times New Roman", serif;
+	font-size: 14pt;
+	font-style: italic;
+	color: lime;
+}
+
+.activated .title{
+	font-family: "Arial", "Times New Roman", serif;
+	font-size: 16pt;
+	font-style: italic;
+	color: white;
+}
+
+.activated {
+	color: orange;
+}
+
+input[value='Submit']{
+	border: solid black;
+	background: yellow;
+	font-family: serif;
+	font-size: 14pt;
+}
+
+input[value='Submit']:hover{
+	border: solid black;
+	background: red;
+	font-family: serif;
+	font-size: 14pt;
+	color: white;
+}
+
+input[value='Submit']:active{
+	border: solid black;
+	background: orange;
+	font-family: serif;
+	font-size: 14pt;
+	color: yellow;
+}
+
+.delete{
+	border: solid black;
+	margin-left: 0.5%;
+	background: #008B8B;
+	font-family: serif;
+	font-size: 14pt;
+	color: white;
+}
+
+.delete:hover{
+	border: solid black;
+	margin-left: 0.5%;
+	background: #40E0D0;
+	font-family: serif;
+	font-size: 14pt;
+	color: black;
+}
+
+.delete:active{
+	border: solid black;
+	margin-left: 0.5%;
+	background: black;
+	font-family: serif;
+	font-size: 14pt;
+	color: #FFD700;
+}
+
+input[type='text']:focus{
+	border: 2px solid orange;
+}
+
+.pageChanger{
+	line-height: 5px;
+	color: blue;
+	font-size: 14pt;
+	width: auto;
+}
+
+.leftLink>a[class="pageChanger"]{
+	float: left;
+}
+
+.rightLink>a[class="pageChanger"]{
+	float: right;
+}
+
+div>a[class="pageChanger"]:visited{color:blue;}
+div>a[class="pageChanger"]:hover{color:white;background:lightgrey;}
+div>a[class="pageChanger"]:active{color:yellow;}
+
+#link_spot{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 35px;
+	width: 60%;
+}

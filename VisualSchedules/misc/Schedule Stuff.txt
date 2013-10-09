@@ -1,0 +1,3 @@
+currently active: activeInfo
+next: mostActive
+neither: schedule_spot

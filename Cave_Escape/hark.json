@@ -1,0 +1,22 @@
+{
+      "identifier" : "url",
+      "items" : [
+          {
+              "url" : "CaveEscape/Cave_Escape.htm",
+              "label" : {
+                  "en-us" : "Cave Escape"
+    	      },
+              "tags" : {
+                  "en-us" : "maze, spatial sound"
+              },
+              "description" : {
+                  "en-us" : "You are lost in a cave, try to find your way out while gathering treasure and avoiding traps."             
+	      },
+              "media" : {
+                  "icon" : "CaveEscape/Images/Icon.png",
+                  "screenshots" : ['CaveEscape/Images/Screenshot.png']
+              },
+              "attribution" : "attribution.json"
+          }
+     ]
+}

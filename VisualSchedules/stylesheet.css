@@ -1,0 +1,114 @@
+/*styling for admin side pages
+Will Woliver Jones created 10/3 modified through 12/7*/
+
+
+a:visited{color:black;}
+a:link{color:black;}
+a:hover{color:white;
+		background: black;}
+a:active{color:yellow;}
+body{
+	background: lightgrey; 
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper{
+	min-height:100%;
+	position:relative;
+}
+.button
+{
+border: solid black;
+border-radius: 15px;
+margin-bottom: 10px;
+background: #56A0D3;
+font-family: serif;
+}
+
+.content{
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 10px;
+	padding bottom:10px;
+}
+
+div>a{
+	display:block;
+	width: 40%;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2em;
+	margin-bottom:10px;
+}
+
+div>.logout{
+        position: absolute;
+	background: none;
+	border: none;        
+	cursor: pointer;
+        margin: 0px;
+        padding: 0px;
+	font-family: serif;
+        top: 3px;
+        right: 5px;
+        line-height: 15px;
+        color: blue;
+        font-size: 10pt;
+        text-decoration: underline;
+	text-overflow: string;
+        width: auto;
+}
+
+div>a[class="refresh"]{
+	position: absolute;
+	top: 7px;
+	left: 50%;
+	right: 50%;
+	line-height: 5px;
+	color: blue;
+	font-size: 10pt;
+	width: auto;
+}
+
+div>p[class="welcome"]{
+	position: absolute;
+	top: -5px;
+	left: 5px;
+	line-height: 5px;
+	font-size: 10pt;
+}
+
+div>.logout:visited{color:blue;}
+div>.logout:hover{color:white;background:lightgrey;}
+div>.logout:active{color:yellow;}
+
+div>a[class="refresh"]:visited{color:blue;}
+div>a[class="refresh"]:hover{color:white;background:lightgrey;}
+div>a[class="refresh"]:active{color:yellow;}
+
+.footer{
+	color:white;
+	background: black;
+	width: 100%;
+	height: 3%;
+	font-size: .5em;
+	text-align: center;
+	margin-top: 25px;
+}
+.form{
+	border: solid black;
+	border-radius: 15px;
+}
+.header{
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background: black;
+	font-weight: bold;
+	
+}

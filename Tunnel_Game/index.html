@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Tunnel Game</title>
+        <script type="text/javascript">
+            var djConfig = {
+                isDebug: false,
+                parseOnLoad: true,
+                baseUrl: './',
+                modulePaths: {  }
+            };
+        </script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/dojo/1.5/dojo/dojo.xd.js">
+        </script>
+        
+        <script src="audio-player/audio-player.js"></script>
+        <script type="text/javascript" src="buffer-loader.js"></script>
+  		<script src="myAudio.js"></script>
+  		<script type="text/javascript" src="2.3.0-crypto-md5.js"></script>
+        <script type="text/javascript" src="Tunnel.js"></script>
+        
+        <style>
+    		#flashplayer {
+      		position: absolute;
+		    left: -9999px;
+		    top: -9999px;
+		    width: 1px;
+		    height: 1px;
+    		}
+  		</style>
+    </head>
+    <body>
+    	<canvas id="canvas" width="600" height="600">
+    	<p>Your browser does not support the canvas element.</p>
+    	</canvas>
+    	<div id="flashplayer">Flash goes here if needed.</div>
+    </body>
+</html>

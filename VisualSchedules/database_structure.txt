@@ -1,0 +1,4 @@
+tbl_sched: image_one, image_two, image_three, image_four, user, tags, type, active, sched_id
+tbl_images: image_url, image_id
+tbl_tags: tag_name, tag_id
+users: user

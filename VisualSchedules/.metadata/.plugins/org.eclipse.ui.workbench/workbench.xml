@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="50" version="2.0">
+<workbenchAdvisor/>
+<window height="760" maximized="true" width="1200" x="50" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.css" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.python.pydev.debug.actionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.php" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="137" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="168" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1373308433116" focus="true" label="Workspace - Web">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="1"/>
+<part id="0"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="6"/>
+<part id="14"/>
+<part id="7"/>
+<part id="18"/>
+<part id="8"/>
+<part id="9"/>
+<part id="15"/>
+<part id="10"/>
+<part id="11"/>
+<part id="20"/>
+<part id="5"/>
+<part id="12"/>
+<part id="13"/>
+<part id="16"/>
+<part id="17"/>
+<part id="19"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.aptana.editor.php" name="search.php" partName="search.php" title="search.php" tooltip="C:\wamp\www\VisualSchedules\search.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/search.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="973" selectionTopPixel="90"/>
+</editor>
+<editor id="com.aptana.editor.php" name="ScheduleDisplay.php" partName="ScheduleDisplay.php" title="ScheduleDisplay.php" tooltip="C:\wamp\www\VisualSchedules\ScheduleDisplay.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/ScheduleDisplay.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="316" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="userOptions.php" partName="userOptions.php" title="userOptions.php" tooltip="C:\wamp\www\VisualSchedules\userOptions.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/userOptions.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2248" selectionTopPixel="578"/>
+</editor>
+<editor id="com.aptana.editor.php" name="Users.php" partName="Users.php" title="Users.php" tooltip="C:\wamp\www\VisualSchedules\Users.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/Users.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1450" selectionTopPixel="293"/>
+</editor>
+<editor id="com.aptana.editor.php" name="createSchedule.php" partName="createSchedule.php" title="createSchedule.php" tooltip="C:\wamp\www\VisualSchedules\createSchedule.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/createSchedule.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1053" selectionTopPixel="45"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.css" name="scheduleStyle.css" partName="scheduleStyle.css" title="scheduleStyle.css" tooltip="C:\wamp\www\VisualSchedules\scheduleStyle.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/scheduleStyle.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="128" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="Choice.php" partName="Choice.php" title="Choice.php" tooltip="C:\wamp\www\VisualSchedules\Choice.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/Choice.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="632" selectionTopPixel="2019"/>
+</editor>
+<editor id="com.aptana.editor.php" name="images.php" partName="images.php" title="images.php" tooltip="C:\wamp\www\VisualSchedules\images.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/images.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="913" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="Login.php" partName="Login.php" title="Login.php" tooltip="C:\wamp\www\VisualSchedules\Login.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/Login.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2030" selectionTopPixel="592"/>
+</editor>
+<editor id="com.aptana.editor.php" name="usernameTest.php" partName="usernameTest.php" title="usernameTest.php" tooltip="C:\wamp\www\VisualSchedules\usernameTest.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/usernameTest.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="240" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="Logout.php" partName="Logout.php" title="Logout.php" tooltip="C:\wamp\www\VisualSchedules\Logout.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/Logout.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="227" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="Schedules.php" partName="Schedules.php" title="Schedules.php" tooltip="C:\wamp\www\VisualSchedules\Schedules.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/Schedules.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="352" selectionTopPixel="635"/>
+</editor>
+<editor id="com.aptana.editor.php" name="insert.php" partName="insert.php" title="insert.php" tooltip="C:\wamp\www\VisualSchedules\insert.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/insert.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1864" selectionTopPixel="315"/>
+</editor>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html" title="index.html" tooltip="C:\wamp\www\VisualSchedules\index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="685" selectionTopPixel="142"/>
+</editor>
+<editor id="com.aptana.editor.php" name="currentUser.php" partName="currentUser.php" title="currentUser.php" tooltip="C:\wamp\www\VisualSchedules\currentUser.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/currentUser.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="24" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="readUser.php" partName="readUser.php" title="readUser.php" tooltip="C:\wamp\www\VisualSchedules\readUser.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/readUser.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="368" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="deleteCookie.php" partName="deleteCookie.php" title="deleteCookie.php" tooltip="C:\wamp\www\VisualSchedules\deleteCookie.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/deleteCookie.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="299" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="Schedule.php" partName="Schedule.php" title="Schedule.php" tooltip="C:\wamp\www\VisualSchedules\orm\Schedule.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/orm/Schedule.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="190" selectionTopPixel="5"/>
+</editor>
+<editor id="com.aptana.editor.css" name="stylesheet.css" partName="stylesheet.css" title="stylesheet.css" tooltip="C:\wamp\www\VisualSchedules\stylesheet.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/stylesheet.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="827" selectionTopPixel="605"/>
+</editor>
+<editor id="com.aptana.editor.css" name="Login.css" partName="Login.css" title="Login.css" tooltip="C:\wamp\www\VisualSchedules\Login.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/Login.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="111" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.css" name="choiceStyle.css" partName="choiceStyle.css" title="choiceStyle.css" tooltip="C:\wamp\www\VisualSchedules\choiceStyle.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/wamp/www/VisualSchedules/choiceStyle.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="128" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="com.aptana.terminal.views.terminal" partName="Terminal"/>
+<view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="com.aptana.explorer.view" partName="App Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled=""/>
+</view>
+<view id="org.eclipse.debug.ui.PHPBrowserOutput" partName="Browser Output"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.aptana.snippets.ui.views.SnippetsView" partName="Snippets"/>
+<view id="com.aptana.js.debug.ui.scriptsView" partName="Loaded Scripts"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.aptana.editor.css" activePerspective="com.aptana.ui.WebPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.aptana.editor.common.presentation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.aptana.js.debug.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<alwaysOnActionSet id="com.aptana.ui.globalActionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<show_view_action id="com.aptana.browser.views.webbrowser"/>
+<show_view_action id="com.aptana.explorer.view"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.aptana.ui.io.remoteview"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="com.aptana.samples.ui.SamplesView"/>
+<show_view_action id="com.aptana.snippets.ui.views.SnippetsView"/>
+<show_view_action id="com.aptana.terminal.views.terminal"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.aptana.webserver.ui.view"/>
+<new_wizard_action id="com.aptana.editor.php.NewPHPProjectWizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.NewWebProject"/>
+<new_wizard_action id="com.aptana.ruby.core.ui.rubyProjectWizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.radrails.rails.ui.projectWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.aptana.explorer.view"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.aptana.terminal.views.terminal"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.aptana.samples.ui.SamplesView"/>
+<view id="com.aptana.snippets.ui.views.SnippetsView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="com.aptana.explorer.view" appearance="2" expanded="2">
+<page content="com.aptana.explorer.view" label="App Explorer"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19968553" ratioLeft="254" ratioRight="1018" relationship="2" relative="left"/>
+<info folder="true" part="terminalArea" ratio="0.74846625" ratioLeft="488" ratioRight="164" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.aptana.terminal.views.terminal" label="Terminal"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@16ff06c" ratio="0.7496183" ratioLeft="491" ratioRight="164" relationship="4" relative="left">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
+<page content="com.aptana.snippets.ui.views.SnippetsView" label="Snippets"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.aptana.js.debug.ui.actionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<alwaysOnActionSet id="com.python.pydev.debug.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.python.pydev.exceptionBreakpoints"/>
+<alwaysOnActionSet id="org.python.pydev.pyPropertyTrace"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.aptana.js.debug.ui.scriptsView"/>
+<show_view_action id="com.aptana.js.debug.ui.AJAXMonitorView"/>
+<show_view_action id="com.aptana.ruby.debug.ui.DisplayView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<perspective_action id="com.aptana.ui.WebPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.PHPBrowserOutput"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="com.aptana.js.debug.ui.scriptsView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7496183" ratioLeft="491" ratioRight="164" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.debug.ui.PHPBrowserOutput" label="Browser Output"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="com.aptana.ruby.debug.ui.DisplayView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44806516" ratioLeft="220" ratioRight="271" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="com.aptana.js.debug.ui.scriptsView" label="Loaded Scripts"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.PHPStackView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/C:/wamp/www/VisualSchedules/Login.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/C:/wamp/www/VisualSchedules/index.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/C:/wamp/www/VisualSchedules/stylesheet.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/C:/wamp/www/VisualSchedules/insert.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/C:/wamp/www/VisualSchedules/deleteCookie.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/C:/wamp/www/VisualSchedules/Choice.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/C:/wamp/www/VisualSchedules/choiceStyle.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/C:/wamp/www/VisualSchedules/scheduleStyle.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/C:/wamp/www/VisualSchedules/ScheduleDisplay.php"/>
+</editors>
+<item historyLabel="Login.css" index="0">
+<position info="not_deleted" x="108" y="0"/>
+</item>
+<item historyLabel="index.html" index="1">
+<position info="not_deleted" x="1549" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="2">
+<position info="not_deleted" x="340" y="0"/>
+</item>
+<item historyLabel="index.html" index="1">
+<position info="not_deleted" x="1146" y="0"/>
+</item>
+<item historyLabel="index.html" index="1">
+<position info="not_deleted" x="689" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="2">
+<position info="not_deleted" x="340" y="0"/>
+</item>
+<item historyLabel="index.html" index="1">
+<position info="not_deleted" x="685" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="2">
+<position info="not_deleted" x="340" y="0"/>
+</item>
+<item historyLabel="insert.php" index="3">
+<position info="not_deleted" x="1077" y="0"/>
+</item>
+<item historyLabel="deleteCookie.php" index="4">
+<position info="not_deleted" x="299" y="0"/>
+</item>
+<item historyLabel="Choice.php" index="5">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="1272" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="1272" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="1272" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="1272" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="1249" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="653" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="653" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="653" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="653" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="653" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="653" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="653" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="298" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="1249" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="298" y="0"/>
+</item>
+<item historyLabel="ScheduleDisplay.php" index="8">
+<position info="not_deleted" x="5402" y="0"/>
+</item>
+<item historyLabel="Choice.php" index="5">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="ScheduleDisplay.php" index="8">
+<position info="not_deleted" x="316" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="128" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="128" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="128" y="0"/>
+</item>
+<item historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="120" y="0"/>
+</item>
+<item historyLabel="choiceStyle.css" index="6">
+<position info="not_deleted" x="128" y="0"/>
+</item>
+<item active="true" historyLabel="scheduleStyle.css" index="7">
+<position info="not_deleted" x="120" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="choiceStyle.css" tooltip="C:\wamp\www\VisualSchedules\choiceStyle.css">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/choiceStyle.css"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="Login.css" tooltip="C:\wamp\www\VisualSchedules\Login.css">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/Login.css"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="stylesheet.css" tooltip="C:\wamp\www\VisualSchedules\stylesheet.css">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/stylesheet.css"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="AdminUploadAPicture.php" tooltip="C:\wamp\www\VisualSchedules\AdminUploadAPicture.php">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/AdminUploadAPicture.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="AdminPictures.php" tooltip="C:\wamp\www\VisualSchedules\AdminPictures.php">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/AdminPictures.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="Schedule.php" tooltip="C:\wamp\www\VisualSchedules\orm\Schedule.php">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/orm/Schedule.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="AdminManageSchedule.html" tooltip="C:\wamp\www\VisualSchedules\AdminManageSchedule.html">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/AdminManageSchedule.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="deleteCookie.php" tooltip="C:\wamp\www\VisualSchedules\deleteCookie.php">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/deleteCookie.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="readUser.php" tooltip="C:\wamp\www\VisualSchedules\readUser.php">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/readUser.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="currentUser.php" tooltip="C:\wamp\www\VisualSchedules\currentUser.php">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/currentUser.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="C:\wamp\www\VisualSchedules\index.html">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="insert.php" tooltip="C:\wamp\www\VisualSchedules\insert.php">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/insert.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="error.html" tooltip="C:\wamp\www\VisualSchedules\error.html">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/error.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="Schedules.php" tooltip="C:\wamp\www\VisualSchedules\Schedules.php">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/Schedules.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="Logout.php" tooltip="C:\wamp\www\VisualSchedules\Logout.php">
+<persistable uri="file:/C:/wamp/www/VisualSchedules/Logout.php"/>
+</file>
+</mruList>
+</workbench>

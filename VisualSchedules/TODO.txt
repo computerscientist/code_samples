@@ -1,0 +1,4 @@
+avoid page refresh when activating schedules?
+prompt when deleting users/schedules?
+improve error reporting on manage users page?
+fix clear bug on AdminPictures.php?

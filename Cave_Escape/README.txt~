@@ -1,0 +1,1 @@
+A game in which you are lost in a cave and try to get out by listening to the wind sounds in each of your ears. As you try to escape, you try to get points by collecting coins while also avoiding traps that are also in the cave.

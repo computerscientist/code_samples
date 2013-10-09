@@ -1,0 +1,8 @@
+array (size=1)
+  'image' => 
+    array (size=5)
+      'name' => string '2012-03-20_184143_1752115.jpg' (length=29)
+      'type' => string 'image/jpeg' (length=10)
+      'tmp_name' => string 'C:\wamp\tmp\phpCD33.tmp' (length=23)
+      'error' => int 0
+      'size' => int 224941
