@@ -1,0 +1,244 @@
+<?php include('header.php'); ?>
+
+
+<div class="onecol">
+<h2>Forgotten Password Retrieval</h2>
+
+<?php
+
+function check_result($stmt) {
+  $retval = False;
+  $stmt->execute();
+  $result = $stmt->fetch();
+  if (is_null($result)) {
+    $retval = False;
+  } else if ($result == True) {
+    $retval = True;
+  } else {
+    # printf("MySQL Error: %s.\n", $stmt->error);
+  }
+  $stmt->close();
+  return($retval);
+}
+
+function is_valid_user($dbh) {
+  # check if this is a valid user
+  $valid_user = False;
+  $stmt = $dbh->prepare("SELECT COUNT(*) FROM reset_tokens WHERE username=? AND password IS NOT NULL");
+  if ($stmt) {
+    $stmt->bind_param('s', $_GET['user']);
+    $stmt->execute();
+    $stmt->bind_result($nusers);
+    $result = $stmt->fetch();
+    if(($result == True) and ($nusers > 0)){
+      $valid_user = True;
+    } else if ($result == False) {
+      printf("MySQL Error: %s.\n", $stmt->error);
+    }
+    $stmt->close();
+  } 
+  return($valid_user);
+}
+
+function did_solve_captcha($dbh) {
+  $captcha_solved = False;
+  # Check if a captcha was submitted
+  if (isset($_POST['captcha_solution']) and ($_POST['captcha_solution'] != '')) {
+    # Protect against SQL injection with prepared statements :)
+    $stmt = $dbh->prepare("SELECT name FROM captcha WHERE name=? AND solution=?");
+    if ($stmt) {
+      $stmt->bind_param('ss', $_POST['captcha_name'], $_POST['captcha_solution']);
+      $captcha_solved = check_result($stmt);
+    }
+  }
+  return($captcha_solved);
+}
+
+function select_captcha($dbh) {
+  $stmt = $dbh->prepare("SELECT FLOOR(RAND() * COUNT(*)) AS `offset` FROM `captcha`");
+  $stmt->bind_result($offset);
+  $stmt->execute();
+  $stmt->fetch();
+  $stmt->close();
+  $stmt = $dbh->prepare("SELECT name FROM `captcha` LIMIT $offset, 1");
+  $stmt->bind_result($captcha_name);
+  $stmt->execute();
+  $stmt->fetch();
+  $stmt->close();
+  return($captcha_name);
+}
+
+function generate_token($dbh) {
+  # generate password token and "email" to user
+  $time = gettimeofday();
+  $token = $time['sec'];
+  $token .= '::' . (int)($time['usec']/1000);
+  $token .= '::' . $_GET['user'];
+  $encoded_token = base64_encode(md5($token, True));
+
+  $stmt = $dbh->prepare("UPDATE reset_tokens SET token = ? WHERE username = ?");
+  if ($stmt) {
+    $stmt->bind_param('ss', $encoded_token, $_GET['user']);
+    $stmt->execute();
+    if ($stmt->affected_rows == 0) {
+      printf("MySQL Error: %s.\n", $stmt->error);
+    }
+    $stmt->close();
+  }
+
+  #var_dump($time);
+  #echo "<br/>\nTOKEN: \"$token\" (\"$encoded_token\")\n<br/>\n";
+
+  # email(encoded_token, user)
+}
+
+function check_token($dbh) {
+  $password = False;
+  # a password token has been specified, so must check against DB
+  $stmt = $dbh->prepare("SELECT password FROM reset_tokens WHERE username=? AND token=?");
+  if ($stmt) {
+    $stmt->bind_param('ss', $_GET['user'], $_POST['token']);
+    $stmt->execute();
+    $stmt->bind_result($password);
+    $result = $stmt->fetch();
+    if(is_null($result)) {
+      $password = False;
+    } else if ($result == False){
+      #printf("MySQL Error: %s.\n", $stmt->error);
+      $password = False;
+    }
+    $stmt->close();
+  }
+  return($password);
+}
+
+
+$user_defined = False;
+$valid_user = False;
+$captcha_solved = False;
+
+$display_token_form = False;
+$display_captcha = False;
+
+# Check that a user is specified
+if (isset($_GET['user']) and ($_GET['user'] != '')) {
+  $user_defined = True;
+} else {
+  echo "<p>A user was not specified.</p>";
+}
+
+if ($user_defined) {
+  # Connect to database
+  $dbh = new mysqli('localhost',"superdbadmin","supersecure","secureweb");
+  if(mysqli_connect_errno()) {
+    echo "MySQL Connection Failed: " . mysqli_connect_errno();
+    die();
+  }
+
+  $valid_user = is_valid_user($dbh);
+  if ($valid_user == False) {
+    printf("Invalid user ('%s'): either the user does not exist or you
+    are not logged in as a team's user.\n", $_GET['user']);
+  } else {
+    $captcha_solved = did_solve_captcha($dbh);
+    if ($captcha_solved == True) {
+      $password = NULL;
+
+      if (isset($_POST['token']) and ($_POST['token'] != '')) {
+        $password = check_token($dbh); 
+      }
+
+      if (is_null($password) or ($password == False)) {
+        generate_token($dbh);
+        $display_token_form = True;
+        if (is_null($password)) {
+          echo "<p>A password-retrieval token has been generated for user '" . $_GET['user'] . "'.</p>";
+        } else {
+          $display_captcha = True;
+          echo "<p><font color='red'>Wrong username or token.</font></p>";
+          echo "<p>A new token has been generated; please try again with the new token.</p>";
+        }
+      } else {
+        printf("<p><font color='green'>Token accepted. Your
+          account password is '%s'.</font></p>
+          <p>Please contact <a href='mailto:amw@cs.unc.edu'>amw@cs.unc.edu</a> 
+          if you receive
+        this message and Part 2 of the project has not yet been
+        released.</font></p>", $password);
+      } 
+    } else {
+      $display_captcha = True;
+    }
+
+    if ($display_captcha) {
+      # Captcha was not solved or a bad token was submitted
+      $captcha_name = select_captcha($dbh);
+    }
+
+    # Disconnect from database
+    $dbh->close();
+
+    if ($display_captcha) {
+?>
+  <div>
+  <h4>Before proceeding, enter the 3 letters in RED below:</h4><br>
+
+  <video src="captchas/video_<?php echo $captcha_name; ?>.webm" autoplay loop>
+    Your browser does not support the HTML5 video tag. Please upgrade ;-)
+  </video>
+
+  <br/>
+  <p>Note that your browser must support HTML5 in order for you to view
+  the CAPTCHA. If you don't see anything, try a different browser (in
+  particular, Safari does not work).</p>
+  <p>If you have trouble reading this captcha, <a
+  href="forgotpw.php?user=<?php echo htmlspecialchars($_GET['user'])
+  ?>">refresh</a> the page for a new one.</p>
+  </div>
+<?php 
+    }
+?>
+  <div>
+  <form method="POST" 
+        action="forgotpw.php?user=<?php echo htmlspecialchars($_GET['user']) ?>">
+<?php
+    if ($display_token_form == True) {
+      if (is_null($password)) { 
+?>
+    <input type="hidden" name="captcha_name" value="<?php echo $_POST['captcha_name']; ?>">
+    <input type="hidden" name="captcha_solution" value="<?php echo $_POST['captcha_solution']; ?>">
+<?php 
+      }
+    }
+    if ($display_captcha == True) {
+      if (isset($_POST['captcha_solution']) and $captcha_solved == False) {
+        echo '<br/><br/><font color="red">You entered an incorrect captcha solution, try again.</font><br/>';
+      }
+?>
+    CAPTCHA Answer: <input type="text" name="captcha_solution" />
+    <input type="hidden" name="captcha_name" value="<?php echo $captcha_name; ?>">
+    <br/>
+<?php
+    }
+    if ($display_token_form == True) {
+?>
+    <p>Enter the token below to retrieve the user's password.</p>
+    Password Token: <input type="text" name="token" />
+<?php
+    } 
+    if (($display_captcha == True) or ($display_token_form == True)) {
+?>
+    <br/><br/>
+    <input type="submit" name="submit" value="Submit" />
+<?php 
+    }
+?>
+  </form>
+  </div>
+<?php
+  }
+} 
+?>
+</div>
+
+<?php include('footer.php'); ?>

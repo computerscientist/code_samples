@@ -1,0 +1,234 @@
+<?php
+# Start a php-managed 'session'
+session_start();
+# Protect against 'session fixation' :)
+if (!isset($_SESSION['initiated'])) {
+ session_regenerate_id();
+ $_SESSION['initiated'] = true;
+}
+# Protect against 'session hijacking' :)
+if (isset($_SESSION['HTTP_USER_AGENT'])) {
+ if ($_SESSION['HTTP_USER_AGENT'] != md5($_SERVER['HTTP_USER_AGENT']))
+  session_unset();
+ else
+  $_SESSION['HTTP_USER_AGENT'] = md5($_SERVER['HTTP_USER_AGENT']);
+}
+# Logout, if requested
+if (isset($_GET['logout']))
+ session_unset();
+
+# If a user attempts to log in, verify their credentials
+$createToken = False;
+if (isset($_POST['reset'])) {
+  if (isset($_POST['user']) and $_POST['user'] != '') {
+    echo "Redirecting to password reset page, <a href=\"forgotpw.php?user=".htmlspecialchars($_POST['user'])."> click here</a> if you are not automatically redirected.";
+    header('Location: forgotpw.php?user='.htmlspecialchars($_POST['user']));
+  } else {
+    echo "You need to enter a valid username to reset.";
+  }
+}
+else if (isset($_POST['user']) and isset($_POST['pass'])) {
+ $dbh = new mysqli('localhost',"dbadmin","secure","secureweb");
+ if(mysqli_connect_errno()) {
+  echo "Connection Failed: " . mysqli_connect_errno();
+  die();
+ }
+ # Protect against SQL injection with prepared statements :)
+ $stmt = $dbh->prepare(
+  "SELECT userid,username FROM users".
+  " WHERE username=? AND password=?");
+ if ($stmt) {
+  $hash = md5($_POST['user'].sha1($_POST['user'].md5($_POST['pass'])));
+  $stmt->bind_param('ss', $_POST['user'], $hash);
+  $stmt->execute();
+  $stmt->bind_result($userid, $username);
+  if ($stmt->fetch()) {
+   $_SESSION['logged_in'] = True;
+   $_SESSION['user'] = $_POST['user'];
+   $_SESSION['userid'] = $userid;
+   $createToken = True;
+  } else {
+   echo "<b>Invalid username and/or password!</b>";
+  }
+  $stmt->close();
+ }
+ $dbh->close();
+}
+
+# If a valid user is logged in, generate a token for them
+if ($createToken == True) {
+# First grab the token information
+mysql_connect('localhost',"dbadmin","secure");
+@mysql_select_db("secureweb") or die( "Unable to select database");
+$query = "SELECT upload ".
+         "FROM users ".
+         "WHERE username='".$_SESSION['user']."'";
+$result=mysql_query($query);
+$isPublisher=mysql_result($result,0,"upload");
+mysql_close();
+if ($isPublisher == 1)
+ $publishValue = 'Publisher=True';
+else
+ $publishValue = 'Publisher=False';
+
+# Create 'token1'
+$data = '== SecureToken LoggedIn=True '.$publishValue.' ==';
+
+# Generate the key
+$key = '';
+$key .= '::' . $_SERVER['REQUEST_TIME'];
+$key .= '::' . $_SERVER['HTTP_USER_AGENT'];
+$key .= '::' . getmypid();
+$key .= '::' . $_SERVER['SERVER_ADDR'];
+$key .= '::' . $_SERVER['SERVER_PORT'];
+$key .= '::' . $_SERVER['REMOTE_ADDR'];
+$key .= '::' . $_SERVER['REMOTE_PORT'];
+$key .= '::' . getmyuid();
+$key .= '::' . getmygid();
+$key = md5($key, True);
+$iv = md5($key, True);
+
+# Encrypt token1
+$encrypted = openssl_encrypt($data, 'aes-128-cbc', $key, False, $iv);
+setcookie('token1', $encrypted, time() + (86400 * 7));
+$_SESSION['token1_key'] = $key;
+$_SESSION['token1_iv'] = $iv;
+
+# Create 'token2'
+mysql_connect('localhost','superdbadmin','supersecure');
+@mysql_select_db("secureweb") or die( "Unable to select database");
+$result=mysql_query("SELECT api_keys.key FROM api_keys WHERE userid="                    .$_SESSION['userid']);
+$num=mysql_numrows($result);
+if ($num <= 0) {
+ echo 'a database error occurred';
+ die();
+}
+$apikey=mysql_result($result,0,"key");
+$result=mysql_query("SELECT encryption_key FROM stuff");
+$key=mysql_result($result,0,"encryption_key");
+$result=mysql_query("SELECT secret FROM fabian");
+$secret=mysql_result($result,0,"secret");
+mysql_close();
+$data = '== SecureToken LoggedIn=True ApiKey='.$apikey.' Secret='.$secret.' ==';
+$salt = openssl_random_pseudo_bytes(3);
+$encrypted = 
+  openssl_encrypt($data, 'rc4', $salt.$key, False, '');
+setcookie('token2', $encrypted, time() + (86400 * 7));
+setcookie('token2_salt', $salt, time() + (86400 * 7));
+}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0; padding: 0 }
+  #map_canvas { height: 100% }
+</style>
+<link rel="stylesheet" href="main.css" type="text/css" />
+        <title>GeoPhoto, Inc.</title>
+<script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC_HVCBQ7Kpqm5vDJVRM3Yyg-DQitPrH6k&sensor=false">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var myOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            myOptions);
+        var latlng = new Array();
+
+<?php
+# Display the selected users photos
+if (isset($_POST['q'])) {
+if ($_POST['q'] != 'select user') {
+# Try to sanitize user input
+$user = addslashes($_POST['q']);
+mysql_connect('localhost',"dbadmin","secure");
+@mysql_select_db("secureweb") or die( "Unable to select database");
+$query = "SELECT reference, description,".
+         " latitude, longitude ".
+         "FROM photos,users WHERE photos.userid=users.userid ".
+         "AND username='".$user."'";
+$result=mysql_query($query);
+$num=mysql_numrows($result);
+$i=0;
+while ($i < $num) {
+ $reference=mysql_result($result,$i,"reference");
+ $description=mysql_result($result,$i,"description");
+ $latitude=mysql_result($result,$i,"latitude");
+ $longitude=mysql_result($result,$i,"longitude");
+?>
+
+        // Add markers for the user's photos
+ latlng[<?php echo $i ?>] = 
+  new google.maps.LatLng(<?php echo $latitude.','.$longitude;  ?>);
+        var marker<?php echo $i ?> = new google.maps.Marker({
+            map: map, 
+            position: latlng[<?php echo $i ?>]
+        });
+        var infowindow<?php echo $i ?> = new google.maps.InfoWindow({
+         content: '<?php
+             if (isset($_SESSION['logged_in'])) {
+               echo "<a href=\"download.php?file=$reference\">[ HI-RES ]</a>";
+             } else {
+               echo '[ Login for HI-RES! ]';
+             }
+           ?><br><img width="180" src="./<?php echo $reference; ?>"/><br/> <?php echo $description; ?>
+           ',
+         maxWidth: 200
+        });
+        google.maps.event.addListener(marker<?php echo $i ?>, 
+          'click', function() {
+         infowindow<?php echo $i ?>.open(map,marker<?php echo $i ?>);
+        });
+
+<?php $i++; } ?>
+
+        // Adjust the map bounds to accomodate all photos
+        var latlngbounds = new google.maps.LatLngBounds( );
+        for ( var i = 0; i < latlng.length; i++ ) {
+          latlngbounds.extend( latlng[ i ] );
+        }
+        map.fitBounds( latlngbounds );
+
+<?php 
+}} 
+
+?>
+
+}
+    </script>
+</head>
+<body onload="initialize()">
+<div id="content">
+
+<h1>GeoPhoto, Inc.</h1>
+
+<ul id="menu">
+<li><a href="index.php">home</a></li>
+<li><a href="download.php">download</a></li>
+<li><a href="faq.php">faq</a></li>
+<li><a href="profiles.php">photographers</a></li>
+<?php if (isset($_SESSION['logged_in'])) {
+ echo '<li><a href="account.php">account</a></li>';
+ echo '<li><a href="?logout=true">logout</a></li>';
+} else { ?>
+<li>
+  <br><br><small>
+  <form method="POST" >
+      User: <input type="text" name="user" />
+      Password: <input type="password" name="pass" />
+      <input type="submit" name="login" value="Login" />
+      <input type="submit" name="reset" value="Forgot Password?" />
+  </form>
+  </small>
+</li>
+<?php } ?>
+</ul>
+

@@ -1,0 +1,10 @@
+http://normandy-vm-04.cs.unc.edu/download.php
+http://normandy-vm-04.cs.unc.edu/faq.php
+http://normandy-vm-04.cs.unc.edu/index.php
+http://normandy-vm-04.cs.unc.edu/profiles.php
+http://normandy-vm-04.cs.unc.edu/forgotpw.php?user=DallaraWang
+
+main picture on home page has Sydney map
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0
+Take a look at: http://www.w3resource.com/php/super-variables/$_SERVER.php
