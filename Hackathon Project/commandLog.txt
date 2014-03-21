@@ -1,0 +1,481 @@
+----invalid---- =>    red
+
+----invalid---- =>    blue
+
+----invalid---- =>    up
+
+VALID COMMAND!! =>    left
+----invalid---- =>    red
+
+----invalid---- =>    yellow
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    right
+
+----invalid---- =>    left
+
+VALID COMMAND!! =>    left
+----invalid---- =>    doge
+
+VALID COMMAND!! =>    doge
+----invalid---- =>    left
+
+----invalid---- =>    right
+
+----invalid---- =>    down
+
+VALID COMMAND!! =>    pokemon
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    yellow
+
+----invalid---- =>     doge
+VALID COMMAND!! =>    doge
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+----invalid---- =>    left
+
+----invalid---- =>    red
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    red
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+VALID COMMAND!! =>    s
+
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    left
+
+VALID COMMAND!! =>    pokemon
+
+VALID COMMAND!! =>    blue
+
+VALID COMMAND!! =>    doge
+VALID COMMAND!! =>    zelda
+
+VALID COMMAND!! =>    zelda
+----invalid---- =>    zelda
+
+----invalid---- =>    left
+
+VALID COMMAND!! =>    left
+----invalid---- =>    left
+
+----invalid---- =>    right
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+----invalid---- =>    right
+
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    right
+VALID COMMAND!! =>    pokemon
+VALID COMMAND!! =>    up
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    doge
+VALID COMMAND!! =>    doge
+----invalid---- =>    player blue
+----invalid---- =>    yellow
+
+----invalid---- =>    yellow
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+----invalid---- =>    much project, such test, wow!
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    pokemon
+VALID COMMAND!! =>    left
+----invalid---- =>    wall black
+----invalid---- =>    wall black
+VALID COMMAND!! =>    left 
+----invalid---- =>    wall pokemon
+VALID COMMAND!! =>    left
+----invalid---- =>    player yellow
+----invalid---- =>    floor doge
+VALID COMMAND!! =>    right
+VALID COMMAND!! =>    left
+----invalid---- =>    wall zelda
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    zelda
+----invalid---- =>    ground black
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    down
+VALID COMMAND!! =>    down
+----invalid---- =>    laft
+VALID COMMAND!! =>    left
+----invalid---- =>    wall yellow
+VALID COMMAND!! =>    right
+VALID COMMAND!! =>    right
+----invalid---- =>    wall doge
+VALID COMMAND!! =>    right
+VALID COMMAND!! =>    down
+----invalid---- =>    wall hacknc
+----invalid---- =>    wall blue
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    down
+VALID COMMAND!! =>    right
+VALID COMMAND!! =>    right
+VALID COMMAND!! =>    pokemon
+----invalid---- =>    wall pokemon
+VALID COMMAND!! =>    down
+----invalid---- =>    wall pokemon
+VALID COMMAND!! =>    doge
+VALID COMMAND!! =>    left
+----invalid---- =>    wall doge
+----invalid---- =>    player doge
+----invalid---- =>    ground doge
+----invalid---- =>    player red
+VALID COMMAND!! =>    left
+----invalid---- =>    wall pokemon
+----invalid---- =>    player, green
+----invalid---- =>    wall blue
+----invalid---- =>    wall zelda
+----invalid---- =>    wall doge
+VALID COMMAND!! =>    down
+VALID COMMAND!! =>    down
+----invalid---- =>    player doge
+VALID COMMAND!! =>    right
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+----invalid---- =>    ground black
+----invalid---- =>    player doge
+----invalid---- =>    
+----invalid---- =>    
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+----invalid---- =>    wall green
+VALID COMMAND!! =>    right
+VALID COMMAND!! =>    up
+----invalid---- =>    ground doge
+
+----invalid---- =>    ground doge
+----invalid---- =>    direction left
+VALID COMMAND!! =>    left
+----invalid---- =>    ledy
+
+-adam
+
+----invalid---- =>    left
+
+VALID COMMAND!! =>    left
+----invalid---- =>    wall black
+----invalid---- =>    left
+
+----invalid---- =>    left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    wall red
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    wall black
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    player doge
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    wall doge
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+----invalid---- =>    wall black
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    left
+----invalid---- =>    player doge
+VALID COMMAND!! =>    left left left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+VALID COMMAND!! =>    left left left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+VALID COMMAND!! =>    left 
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    ground doge 
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    wall red 
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    yellow
+
+----invalid---- =>    wall blue
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    player yellow
+
+----invalid---- =>    player yellow
+
+----invalid---- =>    wall blue left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+----invalid---- =>    left
+
+----invalid---- =>    ground doge\c
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+VALID COMMAND!! =>    left left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    left left
+
+==================================================================
+this mobile text message is brought to you by at&t
+
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+----invalid---- =>    wall yellow
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+----invalid---- =>    ground black
+----invalid---- =>    ground doge
+VALID COMMAND!! =>    down 
+----invalid---- =>    ground zelda 
+VALID COMMAND!! =>    down
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+----invalid---- =>    wall yellow
+----invalid---- =>    wall black
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+----invalid---- =>    ground blue
+VALID COMMAND!! =>    right 
+----invalid---- =>    player yellow
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+----invalid---- =>    ground doge
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    up 
+VALID COMMAND!! =>    up 
+----invalid---- =>    ground orange
+----invalid---- =>    player blue
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+----invalid---- =>    down
+
+----invalid---- =>    wall blue
+
+----invalid---- =>    wall red
+
+----invalid---- =>    wall blue
+
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    right 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    left 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    down 
+VALID COMMAND!! =>    right 
+----invalid---- =>    ground black
+----invalid---- =>    wall zelda
+----invalid---- =>    player pokemon
+----invalid---- =>    wall pokemon
+----invalid---- =>    ground orange
+----invalid---- =>    wall yellow
+----invalid---- =>    player zelda
+----invalid---- =>    wall black
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
+VALID COMMAND!! =>    left
