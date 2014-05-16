@@ -1,0 +1,7 @@
+In order to run my code, type the following command into the command line with Python installed:
+
+python imageAnalyser.py <name_of_image_to_analyse>
+
+
+My code uses the following external, non-standard Python libraries: Image (for
+pixel-by-pixel image analysis), colorsys (for pixel conversion from RGB to HSV)

@@ -1,0 +1,9 @@
+-04c.pdf: http://people.cs.umass.edu/~trekp/csc262/lectures/04c.pdf
+-exploit_example.c: based on program on page 1 in 04c.pdf (with a few revisions so we can actually test it...)
+
+-notetaker/notesearch: Hacking: the Art of Exploitation Ch.2
+(hacking.h is also from Ch.2 of the book)
+
+-mpx.c: http://software.intel.com/en-us/articles/using-intel-mpx-with-the-intel-software-development-emulator
+
+-auth_overflow: Hacking: the Art of Exploitation Ch.3

