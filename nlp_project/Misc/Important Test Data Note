@@ -1,0 +1,3 @@
+Added "http://caselaw.lp.findlaw.com/scripts/getcase.pl?navby=case&court=us&vol=420&invol=515" manually to test data list (in place of "http://caselaw.lp.findlaw.com/scripts/getcase.pl?court=us&vol=423&invol=1", which was just a decree for the case, not the actual more descriptive opinion reported)
+
+Did same with "http://caselaw.lp.findlaw.com/scripts/getcase.pl?navby=case&court=us&vol=408&invol=786" (in place of "http://caselaw.lp.findlaw.com/scripts/getcase.pl?court=us&vol=423&invol=938", due to fact that this page's case text was merely the result of a denied "petition for a writ of certiorari" (losing party asks Supreme Court to look at decision of a lower court) for the original case in 1972).

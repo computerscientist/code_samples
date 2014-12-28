@@ -1,0 +1,67 @@
+const MIC: Function; # Calculate Message Integrity Code
+usertype T;
+const Empty: T;
+
+
+protocol APKES(U,V)
+{
+        role U
+        {
+                # Use "fresh" for randomly-generated values
+                fresh Ru: Nonce;
+
+
+                # HELLO
+                send_1(U,V, Ru);
+
+
+                # HELLOACK
+                var Rv: Nonce;
+                macro msg2 = (Ru, Rv);
+                macro mic2 = MIC(msg2);
+                recv_2(V,U, {msg2, mic2}k(V, U) );
+
+
+                # ACK
+                macro msg3 = Empty;
+                macro mic3 = MIC(msg3);
+                macro pairwiseKey = {Ru, Rv}k(V,U);  # Encryption happens using AES
+                send_3(U,V, {msg3, mic3}pairwiseKey );
+
+
+                # Claims
+                claim_i1(U,Secret,pairwiseKey);
+                claim_i2(U,Niagree);
+                claim_i3(U,Nisynch);
+        }
+
+
+        role V
+        {
+                fresh Rv: Nonce;
+                
+                # HELLO msg
+                var Ru: Nonce;
+                recv_1(U,V, Ru);
+
+
+                # HELLOACK
+                macro msg2 = (Ru, Rv);
+                macro mic2 = MIC(msg2);
+                send_2(V,U, {msg2, mic2}k(V, U) );
+
+
+                # ACK
+                macro msg3 = Empty;
+                macro mic3 = MIC(msg3);
+                macro pairwiseKey = {Ru, Rv}k(V,U); # Encryption happens using AES
+                recv_3(U,V, {msg3, mic3}pairwiseKey );
+
+
+                # Claims
+                claim_i1(V,Secret,pairwiseKey);
+                claim_i2(V,Niagree);
+                claim_i3(V,Nisynch);
+        }
+}
+

@@ -1,0 +1,7 @@
+fid=fopen('urls.txt', 'wt')
+fprintf(fid, '%s\n', cases.url)
+fclose(fid)
+
+fid=fopen('years.txt', 'wt')
+fprintf(fid, '%d\n', cases.year)
+fclose(fid)

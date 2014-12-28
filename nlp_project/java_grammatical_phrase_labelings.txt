@@ -1,0 +1,278 @@
+right_NN of_IN women_NNS 
+right_NN of_IN workers_NNS 
+right_NN of_IN the_DT workers_NNS 
+right_NN of_IN homosexuals_NNS 
+right_NN of_IN gays_NNS 
+right_NN of_IN criminals_NNS 
+right_NN of_IN the_DT accused_VBN 
+right_NN of_IN an_DT accused_VBN 
+right_NN of_IN a_DT woman_NN 
+right_NN of_IN the_DT woman_NN 
+right_NN of_IN a_DT worker_NN 
+right_NN of_IN the_DT worker_NN 
+right_NN of_IN a_DT homosexual_NN 
+right_NN of_IN the_DT homosexual_NN 
+right_NN of_IN a_DT gay_JJ 
+right_NN of_IN the_DT gay_JJ 
+right_NN of_IN a_DT criminal_JJ 
+right_NN of_IN the_DT criminal_JJ 
+rights_NNS of_IN the_DT woman_NN 
+rights_NNS of_IN women_NNS 
+rights_NNS of_IN the_DT women_NNS 
+rights_NNS of_IN workers_NNS 
+rights_NNS of_IN homosexuals_NNS 
+rights_NNS of_IN gays_NNS 
+rights_NNS of_IN criminals_NNS 
+rights_NNS of_IN the_DT accused_VBN 
+rights_NNS of_IN an_DT accused_VBN 
+interest_NN of_IN the_DT nation_NN 
+security_NN of_IN the_DT nation_NN 
+segregation_NN of_IN schools_NNS 
+separate_JJ but_CC equal_JJ 
+right_RB to_TO vote_VB 
+right_RB to_TO suffrage_NN 
+freedom_NN to_TO vote_VB 
+freedom_NN to_TO suffrage_NN 
+freedom_NN of_IN suffrage_NN 
+freedom_NN of_IN speech_NN 
+right_RB to_TO privacy_NN 
+rights_NNS to_TO vote_VB 
+rights_NNS to_TO suffrage_NN 
+freedoms_NNS to_TO vote_VB 
+freedoms_NNS to_TO suffrage_NN 
+freedoms_NNS of_IN suffrage_NN 
+rights_NNS to_TO privacy_NN 
+right_RB to_TO pray_VB 
+right_RB to_TO prayer_NN 
+right_NN of_IN prayer_NN 
+rights_NNS to_TO pray_VB 
+rights_NNS to_TO prayer_NN 
+rights_NNS of_IN prayer_NN 
+national_JJ interest_NN 
+national_JJ security_NN 
+right_RB to_TO search_VB 
+rights_NNS to_TO search_VB 
+rights_NNS of_IN search_NN 
+power_NN to_TO search_VB 
+powers_NNS to_TO search_VB 
+powers_NNS of_IN search_NN 
+right_RB to_TO seize_VB 
+rights_NNS to_TO seize_VB 
+power_NN to_TO seize_VB 
+powers_NNS to_TO seize_VB 
+equal_JJ pay_NN 
+equivalent_JJ pay_NN 
+identical_JJ pay_NN 
+equal_JJ income_NN 
+equivalent_JJ income_NN 
+identical_JJ income_NN 
+equal_JJ wages_NNS 
+equivalent_JJ wages_NNS 
+identical_JJ wages_NNS 
+equal_JJ compensation_NN 
+equivalent_JJ compensation_NN 
+identical_JJ compensation_NN 
+racial_JJ equality_NN 
+gender_NN equality_NN 
+pay_NN equality_NN 
+income_NN equality_NN 
+wage_NN equality_NN 
+compensation_NN equality_NN 
+equality_NN of_IN race_NN 
+equality_NN of_IN gender_NN 
+equality_NN of_IN sexual_JJ orientation_NN 
+equality_NN of_IN pay_NN 
+equality_NN of_IN income_NN 
+equality_NN of_IN wages_NNS 
+equality_NN of_IN compensation_NN 
+right_NN of_IN search_NN and_CC seizure_NN 
+right_RB to_TO search_VB and_CC seizure_NN 
+power_NN of_IN search_NN and_CC seizure_NN 
+power_NN to_TO search_VB and_CC seizure_NN 
+rights_NNS of_IN search_NN and_CC seizure_NN 
+rights_NNS to_TO search_VB and_CC seizure_NN 
+powers_NNS of_IN search_NN and_CC seizure_NN 
+powers_NNS to_TO search_VB and_CC seizure_NN 
+right_NN of_IN searching_VBG 
+right_NN of_IN search_NN 
+right_NN of_IN seizing_VBG 
+right_NN of_IN seizure_NN 
+power_NN of_IN searching_VBG 
+power_NN of_IN search_NN 
+power_NN of_IN seizing_VBG 
+power_NN of_IN seizure_NN 
+rights_NNS of_IN searching_VBG 
+rights_NNS of_IN search_NN 
+rights_NNS of_IN seizing_VBG 
+rights_NNS of_IN seizure_NN 
+powers_NNS of_IN searching_VBG 
+powers_NNS of_IN seizing_VBG 
+powers_NNS of_IN seizure_NN 
+the_DT right_NN of_IN women_NNS 
+the_DT right_NN of_IN workers_NNS 
+the_DT right_NN of_IN the_DT workers_NNS 
+the_DT right_NN of_IN homosexuals_NNS 
+the_DT right_NN of_IN gays_NNS 
+the_DT right_NN of_IN criminals_NNS 
+the_DT right_NN of_IN accused_VBN 
+the_DT right_NN of_IN an_DT accused_VBN 
+the_DT right_NN of_IN a_DT woman_NN 
+the_DT right_NN of_IN a_DT worker_NN 
+the_DT right_NN of_IN a_DT homosexual_NN 
+the_DT right_NN of_IN a_DT gay_JJ 
+the_DT right_NN of_IN a_DT criminal_JJ 
+the_DT rights_NNS of_IN women_NNS 
+the_DT rights_NNS of_IN workers_NNS 
+the_DT rights_NNS of_IN homosexuals_NNS 
+the_DT rights_NNS of_IN gays_NNS 
+the_DT rights_NNS of_IN criminals_NNS 
+the_DT rights_NNS of_IN accused_VBN 
+the_DT rights_NNS of_IN an_DT accused_VBN 
+the_DT interest_NN of_IN the_DT nation_NN 
+the_DT security_NN of_IN the_DT nation_NN 
+the_DT segregation_NN of_IN schools_NNS 
+the_DT separate_JJ but_CC equal_JJ 
+the_DT right_NN to_TO vote_VB 
+the_DT right_NN to_TO suffrage_NN 
+the_DT freedom_NN to_TO vote_VB 
+the_DT freedom_NN to_TO suffrage_NN 
+the_DT freedom_NN of_IN suffrage_NN 
+the_DT freedom_NN of_IN speech_NN 
+the_DT right_NN to_TO privacy_NN 
+the_DT rights_NNS to_TO privacy_NN 
+the_DT right_NN to_TO pray_VB 
+the_DT right_NN to_TO prayer_NN 
+the_DT right_NN of_IN prayer_NN 
+the_DT rights_NNS to_TO pray_VB 
+the_DT rights_NNS to_TO prayer_NN 
+the_DT rights_NNS of_IN prayer_NN 
+the_DT national_JJ interest_NN 
+the_DT right_NN to_TO search_VB 
+the_DT power_NN to_TO search_VB 
+the_DT power_NN of_IN search_NN
+the_DT powers_NNS to_TO search_VB 
+the_DT powers_NNS of_IN search_NN 
+the_DT right_NN to_TO seize_VB 
+the_DT power_NN to_TO seize_VB 
+the_DT equality_NN of_IN race_NN 
+the_DT equality_NN of_IN gender_NN 
+the_DT equality_NN of_IN sexual_JJ orientation_NN 
+the_DT equality_NN of_IN pay_NN 
+the_DT equality_NN of_IN income_NN 
+the_DT equality_NN of_IN wages_NNS 
+the_DT equality_NN of_IN compensation_NN 
+the_DT right_NN of_IN search_NN and_CC seizure_NN 
+the_DT right_NN to_TO search_VB and_CC seizure_NN 
+the_DT power_NN of_IN search_NN and_CC seizure_NN 
+the_DT power_NN to_TO search_VB and_CC seizure_NN 
+the_DT rights_NNS of_IN search_NN and_CC seizure_NN 
+the_DT right_NN of_IN searching_VBG 
+the_DT right_NN of_IN seizing_VBG 
+the_DT power_NN of_IN searching_VBG 
+the_DT rights_NNS of_IN searching_VBG 
+the_DT rights_NNS of_IN seizure_NN 
+the_DT powers_NNS of_IN searching_VBG 
+a_DT right_NN of_IN women_NNS 
+a_DT right_NN of_IN workers_NNS 
+a_DT right_NN of_IN the_DT workers_NNS 
+a_DT right_NN of_IN homosexuals_NNS 
+a_DT right_NN of_IN gays_NNS 
+a_DT right_NN of_IN criminals_NNS 
+a_DT right_NN of_IN the_DT accused_VBN 
+a_DT right_NN of_IN an_DT accused_VBN 
+a_DT right_NN of_IN the_DT woman_NN 
+a_DT right_NN of_IN the_DT worker_NN 
+a_DT right_NN of_IN the_DT homosexual_NN 
+a_DT right_NN of_IN the_DT gay_JJ 
+a_DT right_NN of_IN the_DT criminal_JJ 
+an_DT interest_NN of_IN the_DT nation_NN 
+a_DT separate_JJ but_CC equal_JJ 
+a_DT right_NN to_TO vote_VB 
+a_DT right_NN to_TO suffrage_NN 
+a_DT right_NN of_IN suffrage_NN 
+a_DT freedom_NN to_TO vote_VB 
+a_DT freedom_NN to_TO suffrage_NN 
+a_DT freedom_NN of_IN suffrage_NN 
+a_DT freedom_NN of_IN speech_NN 
+a_DT right_NN to_TO privacy_NN 
+a_DT right_NN to_TO pray_VB 
+a_DT right_NN to_TO prayer_NN 
+a_DT right_NN of_IN prayer_NN 
+a_DT national_JJ interest_NN 
+a_DT right_NN to_TO search_VB 
+a_DT power_NN to_TO search_VB 
+a_DT right_NN to_TO seize_VB 
+a_DT power_NN to_TO seize_VB 
+an_DT equal_JJ pay_NN 
+an_DT equivalent_JJ pay_NN 
+an_DT identical_JJ pay_NN 
+an_DT equal_JJ income_NN 
+an_DT equivalent_JJ income_NN 
+an_DT identical_JJ income_NN 
+an_DT equal_JJ wage_NN 
+an_DT equivalent_JJ wage_NN 
+an_DT identical_JJ wage_NN 
+an_DT equal_JJ compensation_NN 
+an_DT equivalent_JJ compensation_NN 
+an_DT identical_JJ compensation_NN 
+a_DT right_NN of_IN search_NN and_CC seizure_NN 
+a_DT right_NN to_TO search_VB and_CC seizure_NN 
+a_DT power_NN of_IN search_NN and_CC seizure_NN 
+a_DT power_NN to_TO search_VB and_CC seizure_NN 
+a_DT power_NN of_IN searching_VBG 
+a_DT power_NN of_IN seizing_VBG 
+their_PRP$ segregation_NN of_IN schools_NNS 
+their_PRP$ separate_JJ but_CC equal_JJ 
+their_PRP$ right_NN to_TO vote_VB 
+their_PRP$ right_NN to_TO suffrage_NN 
+their_PRP$ freedom_NN to_TO vote_VB 
+their_PRP$ freedom_NN to_TO suffrage_NN 
+their_PRP$ freedom_NN of_IN suffrage_NN 
+their_PRP$ freedom_NN of_IN speech_NN 
+their_PRP$ right_NN to_TO privacy_NN 
+rights_NNS to_TO vote_VB 
+rights_NNS to_TO suffrage_NN 
+their_PRP$ freedoms_NNS to_TO vote_VB 
+their_PRP$ freedoms_NNS to_TO suffrage_NN 
+their_PRP$ freedoms_NNS of_IN suffrage_NN 
+their_PRP$ rights_NNS to_TO privacy_NN 
+their_PRP$ right_NN to_TO pray_VB 
+their_PRP$ right_NN to_TO prayer_NN 
+their_PRP$ right_NN of_IN prayer_NN 
+their_PRP$ rights_NNS to_TO pray_VB 
+their_PRP$ rights_NNS to_TO prayer_NN 
+their_PRP$ rights_NNS of_IN prayer_NN 
+their_PRP$ right_JJ to_TO search_VB 
+their_PRP$ rights_NNS to_TO search_VB 
+their_PRP$ rights_NNS of_IN search_NN 
+their_PRP$ power_NN to_TO search_VB 
+their_PRP$ powers_NNS to_TO search_VB 
+their_PRP$ powers_NNS of_IN search_NN 
+their_PRP$ right_NN to_TO seize_VB 
+their_PRP$ rights_NNS to_TO seize_VB 
+their_PRP$ power_NN to_TO seize_VB 
+their_PRP$ powers_NNS to_TO seize_VB 
+their_PRP$ right_NN of_IN search_NN and_CC seizure_NN 
+their_PRP$ right_NN to_TO search_VB and_CC seizure_NN 
+their_PRP$ power_NN of_IN search_NN and_CC seizure_NN 
+their_PRP$ power_NN to_TO search_VB and_CC seizure_NN 
+their_PRP$ rights_NNS of_IN search_NN and_CC seizure_NN 
+their_PRP$ rights_NNS to_TO search_VB and_CC seizure_NN 
+their_PRP$ powers_NNS of_IN search_NN and_CC seizure_NN 
+their_PRP$ powers_NNS to_TO search_VB and_CC seizure_NN 
+their_PRP$ right_NN of_IN searching_VBG 
+their_PRP$ right_NN of_IN search_NN 
+their_PRP$ right_NN of_IN seizing_VBG 
+their_PRP$ right_NN of_IN seizure_NN 
+their_PRP$ power_NN of_IN searching_VBG 
+their_PRP$ power_NN of_IN search_NN 
+their_PRP$ power_NN of_IN seizing_VBG 
+their_PRP$ power_NN of_IN seizure_NN 
+their_PRP$ rights_NNS of_IN searching_VBG 
+their_PRP$ rights_NNS of_IN search_NN 
+their_PRP$ rights_NNS of_IN seizing_VBG 
+their_PRP$ rights_NNS of_IN seizure_NN 
+their_PRP$ powers_NNS of_IN searching_VBG 
+their_PRP$ powers_NNS of_IN search_NN 
+their_PRP$ powers_NNS of_IN seizing_VBG 
+their_PRP$ powers_NNS of_IN seizure_NN

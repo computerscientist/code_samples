@@ -1,0 +1,47 @@
+const concat: Function;
+const F: Function; # Pseudorandom function family
+secret Km; # Assume preloaded into nodes, then deleted from both of them after protocol is over
+
+# Assume these are known publicly (and hence globally)?
+const IDu: Agent;
+const IDv: Agent;
+
+protocol LEAP(U,V)
+{
+    role U
+    {
+        macro Ku = F(Km, IDu);
+        var Kv;
+
+        # HELLO
+        send_1(U,V, IDu);
+
+        # ACK
+        macro concatenation = concat(IDv,IDu);
+        recv_2(V,U, {Kv,concatenation}sk(V) );
+
+        # Claims
+        claim_i1(U,Secret,Ku); # Need this?
+        # claim_i2(U,Secret,pairwiseKey);
+        claim_i3(U,Niagree); # Need both agree & synch?
+        claim_i4(U,Nisynch);
+    }
+
+    role V
+    {
+        macro Kv = F(Km, IDv);
+
+        # HELLO msg
+        recv_1(U,V, IDu);
+
+        # ACK
+        macro concatenation = concat(IDv,IDu);
+        send_2(V,U, {Kv,concatenation}sk(V) ); 
+
+        # Claims
+        claim_i1(V,Secret,Kv); # Need this?
+        # claim_i2(V,Secret,pairwiseKey);
+        claim_i3(V,Niagree); # Need both agree & synch?
+        claim_i4(V,Nisynch);
+    }
+}

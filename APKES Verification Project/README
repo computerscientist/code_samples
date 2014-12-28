@@ -1,0 +1,8 @@
+This is a project in which me and Rob Lewis (https://github.com/superdude264)
+created an SPDL code representation of the high-level APKES protocol as discussed
+in the "6LoWPAN Security: Adding Compromise Resilience to the 802.15.4 Security Sublayer"
+paper by Krentz et al, and then plugged it into the Scyther tool for protocol verification
+(http://www.cs.ox.ac.uk/people/cas.cremers/scyther/). We only verified the APKES protocol
+in our final paper, and so the LEAP protocol description (also discussed in the paper by
+Krentz et al) in the "leap.spdl" file is incomplete and was not used in our final result.
+Our results are discussed in the "Final Paper.pdf" file.

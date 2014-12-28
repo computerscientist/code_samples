@@ -1,0 +1,25 @@
+caseAnalyzer.get_input_text_from_html_page('http://caselaw.lp.findlaw.com/scripts/getcase.pl?court=us&vol=370&invol=713')
+The_DT man_NN 's_POS belt_NN
+
+
+import caseAnalyzer
+caseAnalyzer.get_number_of_specific_relations(("race", "equal"), "the goal is racial equality")
+caseAnalyzer.get_total_number_of_relations("the goal is racial adsf race asdf equality")
+caseAnalyzer.get_total_number_of_relations("the goal is racial adsf race asdf equality and women's rights")
+
+
+
+import caseAnalyzer
+caseAnalyzer.get_number_of_grammatical_constructs('their_PRP$ right_NN of_IN search_NN and_CC seizure_NN', 'right_NN of_IN')
+
+caseAnalyzer.get_number_of_grammatical_constructs('their_PRP$ right_NN of_IN search_NN and_CC seizure_NN', 'their_PRP$ right_NN of_IN search_NN and_CC seizure_NN')
+
+caseAnalyzer.get_number_of_grammatical_constructs('their_PRP$ right_NN of_IN search_NN and_CC seizure_NN', 'their_PRP$ right_NN of_IN search_NN and_CC seizure_NN and_CC')
+
+
+
+
+import caseAnalyzer
+tagged_phrases=caseAnalyzer.get_labeled_grammatical_phrases('java_grammatical_phrase_labelings.txt')
+caseAnalyzer.get_total_number_of_grammatical_constructs(tagged_phrases, 'their_PRP$ power_NN of_IN search_NN and_CC')
+caseAnalyzer.get_total_number_of_grammatical_constructs(tagged_phrases, 'the_DT power_NN of_IN search_NN and_CC seizure_NN and_CC the_DT right_NN of_IN women_NNS')
