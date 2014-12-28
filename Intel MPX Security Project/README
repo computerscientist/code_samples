@@ -1,0 +1,7 @@
+This project is a security verification of the new Intel MPX extensions
+I did with Jun Jiang (also a UNC-Chapel Hill student) as a final
+project for professor Cynthia Sturton's "Software Security"
+course in the spring of 2014. Since we did not have access to a
+physical architecture with Intel MPX extensions, we did our
+verification on an emulated version of such a system. Our final
+results can be found in the "final_paper.pdf" file.
