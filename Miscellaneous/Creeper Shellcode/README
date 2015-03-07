@@ -1,4 +1,5 @@
 Shellcode that downloads a creeper sound file and an executable file which plays it,
 and then runs the executable to repeatedly play creeper sounds on your Linux system!
 For personal use only. Please use legally and do not harm other people or other people's
-systems!
+systems. I am not responsible for any harmful or illegal actions you take using this
+shellcode.

