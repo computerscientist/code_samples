@@ -1,4 +1,4 @@
-//This shellcode is adapted from: http://repo.shell-storm.org/shellcode/files/shellcode-611.php
+//This shellcode is adapted from: http://shell-storm.org/shellcode/files/shellcode-611.php
 
 #include <stdio.h>
 #include <string.h>
