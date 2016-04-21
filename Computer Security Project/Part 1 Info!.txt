@@ -1,5 +1,0 @@
-md5(user+sha1(user+md5(password)))
-Example: user='test' and password='test' results in hash value bd1326d1eedd73cf91b734a7037a9f4c in hexadecimal.
-
-found usernames in profiles, just need to get passwords
-once get password, get authentication tokens and break them using cryptanalysis

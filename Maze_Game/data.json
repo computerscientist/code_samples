@@ -1,0 +1,24 @@
+{
+   "login":
+   {
+      "username":"jrdbnntt",
+      "password":"hackFSU"
+   },
+   "send":
+   {
+      "from":"game@r.bymail.in"
+   },
+     
+     
+   "player":
+   {
+      "red":true,
+      "blue":false,
+      "green":false,
+   },
+     
+   "left":false,
+   "right":false,
+   "up":false,
+   "down":false
+}
